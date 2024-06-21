@@ -13,31 +13,31 @@ This project is a web application for managing products and shopping carts in re
 
 ## Products
 
-GET /api/products: Get the list of products.
-GET /api/products/:pid: Get a product by its ID.
-POST /api/products: Add a new product.
-PUT /api/products/:pid: Update an existing product.
-DELETE /api/products/:pid: Delete a product.
+`GET /api/products`: Get the list of products.
+`GET /api/products/:pid`: Get a product by its ID.
+`POST /api/products`: Add a new product.
+`PUT /api/products/:pid`: Update an existing product.
+`DELETE /api/products/:pid`: Delete a product.
 
 ## Carts
 
-POST /api/carts: Create a new cart.
-GET /api/carts/:cid: Get a cart by its ID.
-POST /api/carts/:cid/product/:pid: Add a product to the cart.
+`POST /api/carts`: Create a new cart.
+`GET /api/carts/:cid`: Get a cart by its ID.
+`POST /api/carts/:cid/product/:pid`: Add a product to the cart.
 
 # Project Structure
 
-src/app.js: Main application and server configuration.
-src/managers/ProductManager.js: Product management logic.
-src/managers/CartManager.js: Cart management logic.
-src/routes/products.router.js: Routes for product management.
-src/routes/carts.router.js: Routes for cart management.
-src/routes/views.router.js: Routes for application views.
-src/public/js/main.js: Client-side logic for real-time interaction.
-src/public/style.css: Custom application styles.
-src/views/layouts/main.handlebars: Main layout for views.
-src/views/home.handlebars: Main view for the product list.
-src/views/realTimeProducts.handlebars: View for real-time product management.
+`src/app.js`: Main application and server configuration.
+`src/managers/ProductManager.js`: Product management logic.
+`src/managers/CartManager.js`: Cart management logic.
+`src/routes/products.router.js`: Routes for product management.
+`src/routes/carts.router.js`: Routes for cart management.
+`src/routes/views.router.js`: Routes for application views.
+`src/public/js/main.js`: Client-side logic for real-time interaction.
+`src/public/style.css`: Custom application styles.
+`src/views/layouts/main.handlebars`: Main layout for views.
+`src/views/home.handlebars`: Main view for the product list.
+`src/views/realTimeProducts.handlebars`: View for real-time product management.
 
 ### Notes
 
