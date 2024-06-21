@@ -41,4 +41,4 @@ This project is a web application for managing products and shopping carts in re
 
 ### Notes
 
-Ensure that the `products.json` and `carts.json` files exist in the data directory before starting the server. This API uses file-based persistence. The data is stored in JSON files, which serve as the database.
+Ensure that the `products.json` and `carts.json` files exist in the data directory before starting the server. This project uses file-based persistence. The data is stored in JSON files, which serve as the database.
