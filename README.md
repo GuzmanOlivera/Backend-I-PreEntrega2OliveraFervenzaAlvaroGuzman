@@ -9,6 +9,31 @@ This project is a web application for managing products and shopping carts in re
 - Real-time product list updates using Socket.IO.
 - Simple and clear user interface with Handlebars and Bootstrap.
 
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/GuzmanOlivera/PreEntrega2OliveraFervenzaAlvaroGuzman.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd PreEntrega2OliveraFervenzaAlvaroGuzman
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the server:
+
+   ```bash
+   npm run dev
+   ```
+
 # Endpoints
 
 ## Products
